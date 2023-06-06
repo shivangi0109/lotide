@@ -16,6 +16,8 @@ const findKeyByValue = function(object, value) {
   return undefined;
 };
 
+module.exports = findKeyByValue;
+
 // Solution 2 - Based on the tip
 // const findKeyByValue = function(object, value) {
 //   const keys = Object.keys(object);

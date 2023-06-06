@@ -16,6 +16,20 @@ const findKey = function(object, callback) {
   return undefined;
 };
 
+module.exports = findKey;
+
+// Solution 2 - Based on the tip
+// const findKey = function(object, callback) {
+//   const keys = Object.keys(object);
+
+//   for (const key of keys) {
+//     if (callback(object[key]) === true) {
+//       return key;
+//     }
+//   }
+//   return undefined;
+// };
+
 const result1 = findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },
