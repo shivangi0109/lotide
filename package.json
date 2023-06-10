@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "name": "@shivangi0109/lotide",
+  "version": "2.0.0",
+  "description": "Lotide - A mini clone of the Lodash library.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/shivangi0109/lotide.git"
   },
-  "author": "",
+  "author": "Shivangi Srivastava",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shivangi0109/lotide/issues"

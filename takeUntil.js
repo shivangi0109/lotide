@@ -24,7 +24,7 @@ const takeUntil = function(array, callback) {
   
   for (let item of array) {
     // check if callback(item)(i.e -1) exist in an array, if exist come out of it
-    if (callback(item) === true) {
+    if (callback(item)) {
       break;
     }
     // push items only till -1, excluding -1

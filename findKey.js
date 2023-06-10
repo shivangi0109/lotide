@@ -9,7 +9,7 @@ const assertEqual = function(actual, expected) {
 const findKey = function(object, callback) {
 
   for (let key in object) {
-    if (callback(object[key]) === true) {
+    if (callback(object[key])) {
       return key;
     }
   }
@@ -23,7 +23,7 @@ module.exports = findKey;
 //   const keys = Object.keys(object);
 
 //   for (const key of keys) {
-//     if (callback(object[key]) === true) {
+//     if (callback(object[key])) {
 //       return key;
 //     }
 //   }
